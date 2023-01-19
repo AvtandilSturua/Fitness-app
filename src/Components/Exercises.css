@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+:root {
+  --firstColor: #000000;
+  --secondColor: #282a3a;
+  --thirdColor: #735f32;
+  --fourthColor: #c69749;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: ;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+.input-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input {
+  width: 50vh;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input button {
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.exercise-info {
+  width: 95vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.info-box {
+  width: 95vw;
+  height: auto;
+  margin: 5px;
+  border: 2px solid var(--fourthColor);
+}
+.info-box h3 {
+  padding: 2px;
+  margin-left: 2px;
+  color: white;
+}
+.info-box h4 {
+  color: white;
+  padding: 2px;
+  margin: 5px;
+  font-size: 1.05rem;
+}
+.info-box span {
+  color: var(--fourthColor);
+}
+.muscle-group,
+.instructions {
+  width: auto;
+  height: auto;
+}
+@media (max-width: 500px) {
+  .instructions h4 {
+    font-size: calc(0.5vw+1rem);
+  }
+  .muscle-group h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .input {
+    width: 90vw;
+  }
+
+  .input button {
+    padding: 8px 8px;
+  }
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+:root {
+  --firstColor: #000000;
+  --secondColor: #282a3a;
+  --thirdColor: #735f32;
+  --fourthColor: #c69749;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: ;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--secondColor);
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.inputbox {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputbox button {
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.inputbox button:hover {
+  background-color: var(--firstColor);
+  color: white;
+  transition: 0.3s;
+}
+.input {
+  width: 20vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input input {
+  padding: 10px;
+  width: 100%;
+}
+.food-info {
+  margin-top: 5%;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+
+  padding: 2px;
+}
+.info-box-food {
+  width: 50vh;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  border: 2px solid var(--fourthColor);
+  pad: 5px;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.info-box-food h3 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 3px;
+}
+.info-box-food span {
+  color: var(--fourthColor);
+}
